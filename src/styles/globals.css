@@ -2,20 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Variables CSS globales */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff; /* Couleur de fond claire */
+  --foreground: #171717; /* Couleur du texte claire */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* Thème sombre */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #171717; /* Couleur de fond sombre */
+    --foreground: #ededed; /* Couleur du texte sombre */
   }
 }
 
+/* Styles globaux pour le body */
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply font-sans; /* Appliquer la police DM Sans */
+  color: var(--foreground); /* Appliquer la couleur du texte */
+  background: var(--background); /* Appliquer la couleur de fond */
 }
+
+

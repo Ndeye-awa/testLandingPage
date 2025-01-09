@@ -7,9 +7,16 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['DM Sans', 'sans-serif'], // Utiliser DM Sans comme police par défaut
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        customPurple: '#8D448B',
+        background: "var(--background)", // Variable pour le fond
+        foreground: "var(--foreground)", // Variable pour la couleur du texte
+        primary: "#0F2137", // Ta couleur principale
+        secondary: "#8D448B", // Ta couleur secondaire
+        secondaryDark: '#7A3A9B',
       },
     },
   },

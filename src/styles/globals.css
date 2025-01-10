@@ -26,5 +26,16 @@ body {
   color: var(--foreground); /* Appliquer la couleur du texte */
   background: var(--background); /* Appliquer la couleur de fond */
 }
+.swiper-button-prev,
+.swiper-button-next {
+  font-size: 2rem;
+  color: #888; /* Couleur grise */
+  background: none;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #000; /* Changer la couleur lors du survol */
+}
 
 

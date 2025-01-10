@@ -2,6 +2,8 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero"; // Assure-toi que le chemin est correct
 import Features from "@/components/Features"; // Utilisation du composant Features
 import Testimonials from "@/components/Testimonials"; // Importation du composant Testimonials
+import Cta from "@/components/Cta"; // Importation du composant cta
+import News from "@/components/News"; // Importation du composant news
 import { useEffect } from "react";
 
 export default function Home() {
@@ -34,6 +36,12 @@ export default function Home() {
       </section>
       <section id="testimonials">
         <Testimonials /> {/* Ajout du composant Testimonials ici */}
+      </section>
+      <section id="cta">
+        <Cta /> {/* Ajout du composant cta ici */}
+      </section>
+      <section id="news">
+        <News /> {/* Ajout du composant cta ici */}
       </section>
       {/* Autres sections */}
     </div>

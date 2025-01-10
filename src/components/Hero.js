@@ -14,21 +14,25 @@ export default function Hero() {
           We help build and manage a team of world-class developers to bring
           your vision to life.
         </p>
-        <form className="flex flex-col md:flex-row md:items-center w-full">
-          <input
-            type="email"
-            placeholder="Subscribe newsletter"
-            className="bg-white h-12 px-4 md:px-6 w-full md:w-3/4 focus:outline-none focus:ring-2 focus:ring-secondary border-0 placeholder-gray-500 rounded-md md:rounded-none md:rounded-l-md"
-            required
-          />
-          <button
-            type="submit"
-            className="h-12 px-4 md:px-6 font-bold text-[16px] text-white bg-secondary rounded-md md:rounded-none md:rounded-r-md hover:bg-secondaryDark transition duration-300 mt-4 md:mt-0"
-            style={{ backgroundColor: "#8D448B" }}
-          >
-            Subscribe
-          </button>
-        </form>
+
+<form className="flex flex-col md:flex-row md:items-center w-full">
+  <div className="flex w-full">
+    <input
+      type="email"
+      placeholder="Subscribe newsletter"
+      className="bg-white h-12 px-4 md:px-6 w-full border-0 placeholder-gray-500 rounded-md md:rounded-l-md focus:outline-none focus:ring-0"
+      required
+    />
+    <button
+      type="submit"
+      className="h-12 px-4 md:px-6 font-bold text-[16px] text-white bg-secondary rounded-md md:rounded-r-md hover:bg-secondaryDark transition duration-300 ml-2"
+      style={{ backgroundColor: "#8D448B" }}
+    >
+      Subscribe
+    </button>
+  </div>
+</form>
+
         <div className="flex items-center mt-12 flex-wrap justify-center md:justify-start">
           <p className="text-gray-600 mr-4 mb-2">Sponsored by:</p>
           <div className="flex justify-center space-x-6">

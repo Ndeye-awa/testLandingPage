@@ -65,9 +65,9 @@ const Testimonials = () => {
                   maxHeight: "none",
                   overflow: "visible",
                   display: "-webkit-box",
-                  WebkitLineClamp: 5,
+                  WebkitLineClamp: 6,
                   WebkitBoxOrient: "vertical",
-                  lineHeight: "1.8",
+                  lineHeight: "1.6",
                 }}
               >
                 {testimonial.testimonial}
@@ -77,7 +77,7 @@ const Testimonials = () => {
         </div>
 
         {/* Testimonial Profiles */}
-        <div className="relative flex flex-wrap justify-center  gap-20">
+        <div className="relative flex flex-wrap justify-center md:gap-20 gap-16">
           {testimonialsData.map((profile) => (
             <div
               key={profile.id}

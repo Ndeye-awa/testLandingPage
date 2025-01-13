@@ -279,18 +279,17 @@ export default function Features() {
 
             <button
               onClick={openModal}
-              className="absolute flex justify-center items-center bg-white text-[#8D448B] rounded-full w-28 h-28 hover:bg-[#8D448B] hover:text-white transition-all"
+              className="absolute flex justify-center items-center bg-white text-[#8D448B] rounded-full w-14 h-14 hover:bg-[#8D448B] hover:text-white transition-all md:w-24 md:h-24 lg:w-28 lg:h-28"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-16 h-16 transition-all"
+                className="w-10 h-10 md:w-12 md:h-12 lg:w-16 lg:h-16 transition-all"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor" // Utilise la couleur définie par `text-[#8D448B]` et `hover:text-white`
+                stroke="currentColor"
               >
-                <polygon
-                  points="5,3 19,12 5,21"
-                  stroke="none"
+                <path
+                  d="M6 4.5C6 3.5 7 3 7.7 3.5L18 11.5C18.6 11.9 18.6 12.9 18 13.5L7.7 21.5C7 22 6 21.5 6 20.5V4.5Z"
                   fill="currentColor"
                 />
               </svg>
@@ -327,6 +326,3 @@ export default function Features() {
     </>
   );
 }
-
-
-

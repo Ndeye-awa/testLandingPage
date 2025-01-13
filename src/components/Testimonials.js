@@ -40,7 +40,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <div className="bg-white pt-6 pb-10">
+    <div className="bg-white pt-24 pb-10">
       <div className="container mx-auto px-6 md:px-16 text-center">
         {/* Section Header */}
         <h4 className="text-sm md:text-lg text-[#8D448B] mb-4">Customer Comments</h4>

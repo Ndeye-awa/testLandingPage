@@ -5,6 +5,7 @@ import Testimonials from "@/components/Testimonials"; // Importation du composan
 import Cta from "@/components/Cta"; // Importation du composant cta
 import News from "@/components/News"; // Importation du composant news
 import { useEffect } from "react";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -41,9 +42,11 @@ export default function Home() {
         <Cta /> {/* Ajout du composant cta ici */}
       </section>
       <section id="news">
-        <News /> {/* Ajout du composant cta ici */}
+        <News /> {/* Ajout du composant news ici */}
       </section>
-      {/* Autres sections */}
+      <section id="footer">
+        <Footer /> {/* Ajout du composant footer ici */}
+      </section>
     </div>
   );
 }

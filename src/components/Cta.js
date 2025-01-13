@@ -3,7 +3,7 @@ import Link from "next/link"; // Assurez-vous d'importer Link
 
 const CTA = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between bg-white p-10 pb-28 rounded-lg shadow-md">
+    <div className="flex flex-col md:flex-row items-center justify-between bg-white p-10 pb-28 shadow-md">
       <div className="flex-1 mb-8 mt-14 md:mb-0 md:w-1/2 flex flex-col items-center text-center md:items-start md:text-left"> {/* Centrer le texte */}
         <h3 className="text-xl md:text-3xl lg:text-3xl font-bold text-[#171717] mb-4">
           Free Customer Support to ensure what you like to expect

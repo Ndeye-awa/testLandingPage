@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* Variables CSS globales */
 :root {
   --background: #ffffff; /* Couleur de fond claire */
